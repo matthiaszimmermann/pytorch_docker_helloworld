@@ -9,6 +9,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
+torch.manual_seed(1)
+
 data = [("me gusta comer en la cafeteria".split(), "SPANISH"),
         ("Give it to me".split(), "ENGLISH"),
         ("No creo que sea una buena idea".split(), "SPANISH"),
