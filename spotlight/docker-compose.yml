@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+  spotlight:
+    build: .
+    image: matthiaszimmermann/spotlight:latest
